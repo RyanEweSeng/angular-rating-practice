@@ -1,0 +1,8 @@
+<div class="rating-item-container">
+  <div class="rating-stars-container">
+    <div *ngFor="let n of [].constructor(rate)">&#9733;</div>
+    <div *ngFor="let n of [].constructor(5 - rate)">&#9734;</div>
+  </div>
+  <h3>{{ name }}</h3>
+  <p>{{ content }}</p>
+</div>
